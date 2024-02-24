@@ -39,6 +39,6 @@ em.getTransaction().commit();
 ```
 ## Tvorba databázy
 ### Hodnoty schema-generation.database.action
-`none` -  žiadna akcia
-`create` - pred spustením aplikácie vytvorí JPA tabuľku pre entitnú triedu, ak neexistovala.
-`drop-and-create` pred spustením najprv odstráni existujúcu a znovu vytvorí prázdnu tabuľku.
+`none` -  žiadna akcia<br>
+`create` - pred spustením aplikácie vytvorí JPA tabuľku pre entitnú triedu, ak neexistovala.<br>
+`drop-and-create` pred spustením najprv odstráni existujúcu a znovu vytvorí prázdnu tabuľku.<br>
